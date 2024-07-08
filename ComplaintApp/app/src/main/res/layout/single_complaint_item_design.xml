@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#F6C227"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivDeviceImage"
+            android:src="@drawable/dell"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Ali"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvName"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM of the pc is damaged"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvProblem"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dell"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvCompanyName"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvContact"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9500"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvExpectedPrice"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/Jan/2001"
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvDate"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
